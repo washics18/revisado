@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  background-color: #252c41;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, "roboto", sans-serif;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin-right: 0;
+}
+
+/*.button {
+  display: inline-block;
+  background-color: #e24647;
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, "roboto", sans-serif;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border: #fff;
+}*/
