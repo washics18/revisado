@@ -1,4 +1,4 @@
-.button {
+.button-store {
   display: inline-block;
   background-color: #252c41;
   color: #fff;
@@ -9,17 +9,21 @@
   text-align: center;
   line-height: 60px;
   margin-right: 0;
+  text-decoration: none;
 }
 
-/*.button {
+.button-store-second {
   display: inline-block;
-  background-color: #e24647;
-  font-size: 20px;
+  background-color: transparent;
   color: #fff;
-  font-family: Arial, "roboto", sans-serif;
-  width: 200px;
+  text-decoration: none;
+  width: 218px;
   height: 60px;
+  font-size: 20px;
+  font-family: Arial, "roboto", sans-serif;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+
   text-align: center;
-  line-height: 60px;
-  border: #fff;
-}*/
+  line-height: 56px;
+}
