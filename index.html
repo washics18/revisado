@@ -6,35 +6,58 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 
 <link rel="stylesheet" href="CSS/reset.css" />
+<link rel="stylesheet" href="CSS/base.css" />
 <link rel="stylesheet" href="CSS/container-store.css" />
 <link rel="stylesheet" href="CSS/header-store.css" />
+<link rel="stylesheet" href="CSS/photo-product.css" />
+<link rel="stylesheet" href="CSS/wrap-product.css" />
 <link rel="stylesheet" href="CSS/description-product.css" />
+<link rel="stylesheet" href="CSS/star.css" />
 <link rel="stylesheet" href="CSS/button-store.css" />
 </head>
 
 <body>
 <div class="container-store">
 <header class="header-store">
-<h1 class="title">LOGO</h1>
+
+<h1 class="title">Logo</h1>
 
 <nav class="navigation">
+<input class="search" type="search" placeholder="Buscar" />
 <a class="action" href="http://collabcode.training">Produtos</a>
 <a class="action" href="http://collabcode.training">Serviços</a>
 <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
 </nav>
 </header>
 
+<figure class="photo-product"><img src="img/fone.png" alt="Fone de ouvido" /></figure>
+<section class="wrap-product">
 <dl class="description-product">
 <dt class="title">Fone top, feliz e caro</dt>
-<dd class="reputation">4.0 (97)</dd>
-<dd class="freight">Frete C$ 108</dd>
-<dd class="price">Preço C$ 340</dd>
-<dd class"sumary">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
-<dd class="more"><a href="">Saber mais...</a></dd>
-<dd><button class="button-store -second" href="comprar.html">Adicionar no carrinho</button></dd>
-<dd><button class="button-store" href="comprar.html">Comprar</button></dd>
+<dd class="item -heart"><img src="img/heart.png" alt="like" />
+</dd>
+<dd class="item -star">
+<img src="img/star-active.png" alt="estrela" />
+<img src="img/star-active.png" alt="estrela" />
+<img src="img/star-active.png" alt="estrela" />
+<img src="img/star-active.png" alt="estrela" />
+<img src="img/star.png" alt="estrela" />
+
+
+</dd>
+<dd class="item">4.0 (97)</dd>
+<dd class="item -sep"><strong class="contrast">Frete</strong> C$ 108</dd>
+<dd class="item -sep -last"><strong class="contrast">Preço</strong> C$ 340</dd>
+<dd class="text -info">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
+<dd class="text -more"><a href="">Saber mais...</a></dd>
 
 </dl>
+<div class="buttons">
+<button class="button-store -second">Adicionar no carrinho</button>
+<a class="button-store" href="comprar.html">Comprar</a>
+</div>
+</section>
+
 </div>
 </body>
 </html>
