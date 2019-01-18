@@ -15,6 +15,10 @@
   top: 8px;
 }
 
+.description-product > .item.-active {
+  background-color: #fff;
+}
+
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
@@ -52,8 +56,10 @@
 
 .description-product > .text.-more {
   margin-bottom: 0;
-  color: inherit;
+  
 }
+
+
 
 .description-product .action {
   color: inherit;
