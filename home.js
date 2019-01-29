@@ -11,3 +11,10 @@ function handleClick() {
 
   $carrinho.textContent = `Carrinho (${valorInicial})`;
 }
+
+const printName = (name, email) => {
+  console.log(name);
+  console.log(email);
+};
+
+printName("washi", "washics18@hotmail.com");

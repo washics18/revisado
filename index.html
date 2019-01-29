@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="CSS/base.css" />
 <link rel="stylesheet" href="CSS/container-store.css" />
 <link rel="stylesheet" href="CSS/header-store.css" />
+<link rel="stylesheet" href="CSS/input-search.css" />
 <link rel="stylesheet" href="CSS/photo-product.css" />
 <link rel="stylesheet" href="CSS/wrap-product.css" />
 <link rel="stylesheet" href="CSS/description-product.css" />
@@ -24,10 +25,17 @@
 <h1 class="title">Logo</h1>
 
 <nav class="navigation">
-<input class="search" type="search" placeholder="Buscar" />
-<a class="action" href="http://collabcode.training">Produtos<div class="border"></div></a>
-<a class="action" href="http://collabcode.training">Serviços<div class="border"></div></a>
-<a class="action -last" href="http://collabcode.training">Carrinho (10)<div class="border"></div></a>
+<form class="input-search">
+  <input class="content" type="search" placeholder="Buscar" /><!--
+--><input class="icon -open -active" type="image" src="img/search.svg" /><!--
+--><input class="icon -close" type="image" src="img/close.svg" />
+</form>
+<ul id="menu" class="list">
+<li class="item -menu"><a href="#menu" class="menu">menu</a></li>
+<li class="item"><a class="action" href="http://collabcode.training">Produtos<div class="border"></div></a></li>
+<li class="item"><a class="action" href="http://collabcode.training">Serviços<div class="border"></div></a></li>
+<li class="item -last"><a class="action" href="http://collabcode.training">Carrinho (10)<div class="border"></div></a></li>
+</ul>
 </nav>
 </header>
 
@@ -36,6 +44,7 @@
 <dl class="description-product">
 <dt class="title">Fone top, feliz e caro</dt>
 <dd class="item -heart"><img class="icon" src="img/heart.png" alt="like" />
+<img class="icon -active" src="img/heart-active.png" alt="like" />
 </dd>
 <dd class="item -star">
 <img class="icon" src="img/star-active.png" alt="estrela" />
@@ -60,6 +69,8 @@
 </section>
 
 </div>
+<script src="js/header-store.js"></script>
+<script src="js/input-search.js"></script>
 <script src="js/description-product.js"></script>
 <script src="home.js"></script>
 
