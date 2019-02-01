@@ -33,17 +33,14 @@
 }
 
 .description-product .icon {
-
   transition: transform 50ms linear;
 }
 .description-product .icon:hover {
   transform: scale(1.1);
-
 }
 
-.description-product .icon.-active{
-display: none;
-
+.description-product .icon.-active {
+  display: none;
 }
 
 .description-product > .item.-active .icon {
@@ -51,7 +48,7 @@ display: none;
 }
 
 .description-product > .item.-active .icon.-active {
-display: block;
+  display: block;
 }
 
 .description-product > .item.-star + .item {
@@ -83,10 +80,7 @@ display: block;
 
 .description-product > .text.-more {
   margin-bottom: 0;
-  
 }
-
-
 
 .description-product .action {
   color: inherit;
@@ -95,14 +89,13 @@ display: block;
 
 @media (max-width: 1275px) {
   .description-product {
-    width:50%;
+    width: 50%;
     min-width: 487px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
-    
   }
-
+}
 
 @media (max-width: 1275px) {
   .description-product > .title {
@@ -113,23 +106,21 @@ display: block;
   .description-product > .item.-star {
     float: left;
     margin-right: 10px;
-}
-.description-product > .item.-number {
-  padding-top: 4px;
-}
+  }
+  .description-product > .item.-number {
+    padding-top: 4px;
+  }
 }
 
 @media (max-width: 720px) {
-
   .description-product {
-
     width: 90%;
     min-width: auto;
   }
-    
 }
 
 @media (max-width: 600px) {
   .description-product > .item.-heart {
     position: static;
+  }
 }
